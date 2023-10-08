@@ -4,14 +4,13 @@
     body {
       font-size: 14px;
     }
-    html ,body
-{
+    body{
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-}
+    }
   }
   
   /* Cambiar el tamaño de fuente para pantallas medianas (entre 768px y 1024px de ancho) */
@@ -97,7 +96,7 @@ html{
     font-family: 'Retron2000', sans-serif;
     text-align: center;
     color: #30dd7d;
-    padding: 50px 20px 10px 30px;
+    padding: 10% 20px 10px 30px;
 
 }
 .Blog .contenido-seccion p{
