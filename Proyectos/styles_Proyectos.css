@@ -4,14 +4,6 @@
     body {
         font-size: 14px;
       }
-      .Blog h1{
-        font-size: 36px;
-        font-family: 'Retron2000', sans-serif;
-        text-align: center;
-        color: #30dd7d;
-        padding: 10% 10% 10px 30px;
-    
-    }
   }
   
   /* Cambiar el tamaño de fuente para pantallas medianas (entre 768px y 1024px de ancho) */
@@ -99,7 +91,7 @@ html,body{
     margin: auto;
 }
 .Blog h1{
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Retron2000', sans-serif;
     text-align: center;
     color: #30dd7d;
