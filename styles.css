@@ -4,8 +4,15 @@
 @media (max-width: 767px) {
     body {
       font-size: 14px;
-      display: grid;
     }
+    html ,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
   }
   
   /* Cambiar el tamaño de fuente para pantallas medianas (entre 768px y 1024px de ancho) */
