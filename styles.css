@@ -238,6 +238,7 @@ html,body{
 .sobremi a {
     text-decoration: none; /* Quitar el subrayado */
     color: black; /* Cambiar el color del texto, si lo deseas */
+    text-align: center;
 }
 .sobremi a button{
     cursor: pointer;
