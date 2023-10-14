@@ -235,7 +235,11 @@ html,body{
     text-align: center;
     margin-top: 30px; /* Ajusta el margen superior según sea necesario */
 }
-.sobremi button{
+.sobremi a {
+    text-decoration: none; /* Quitar el subrayado */
+    color: black; /* Cambiar el color del texto, si lo deseas */
+}
+.sobremi a button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -248,7 +252,7 @@ html,body{
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+.sobremi a button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -258,7 +262,7 @@ html,body{
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.sobremi a button:hover .overlay{
     width: 100%;
 }
 /* SECCION S K I L L S */
